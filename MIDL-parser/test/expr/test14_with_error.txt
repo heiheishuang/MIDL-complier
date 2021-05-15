@@ -1,0 +1,9 @@
+struct test{
+     float a1;
+     double a2,a3,a4;
+     long double a5;
+     char a_6["compile"++"studying"," ","abs\\b\t\n\f\r\"\\abs"];
+     BOOLEAN a_bool_7[10^2,1&2&3,TRUE|FALSE~,~FALSE|~TRUE];
+     long a8[1024>>10,0<<10,100*2/10%2,100+21-19];
+     boolean a9[10^2&&3|-1>>10&100<<-10-10+100*2/10%2];
+}

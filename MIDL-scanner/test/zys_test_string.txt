@@ -1,0 +1,13 @@
+"\\\a"
+"asd"
+"\\a\t\t"
+""
+"dfa
+"fga_da_"
+asdfa"
+dfas
+"\b\t\n\f\r\"\\"
+\
+\\
+\
+"\""

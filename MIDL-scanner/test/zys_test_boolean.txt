@@ -1,0 +1,10 @@
+boolean
+bool
+true
+TRUE
+FALSE
+FLASE
+false
+{falsee}
+{false+true - TRUE}
+<<TRUE%false+false+FALSE

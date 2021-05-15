@@ -1,0 +1,101 @@
+//
+// Created by Zou on 2021/5/10.
+//
+
+#ifndef MIDL_PARSER_SYNTAXTYPE_H
+#define MIDL_PARSER_SYNTAXTYPE_H
+
+enum class NodeType {
+    UNDEFINED = -1,
+    STMT,
+    EXP
+};
+
+enum class ExpVal {
+    UNDEFINED = -1,
+
+    CHAR,
+    BOOLEAN,
+
+    FLOAT,
+    DOUBLE,
+    LONG_DOUBLE,
+
+    SHORT,
+    INT8,
+    INT16,
+    INT32,
+    INT64,
+    LONG,
+    LONG_LONG,
+
+    UNSIGNED_SHORT,
+    UNSIGNED_LONG,
+    UNSIGNED_LONG_LONG,
+    UINT8,
+    UINT16,
+    UINT32,
+    UINT64
+};
+
+enum class STMT {
+    UNDEFINED = -1,
+    STRUCT_TYPE,
+    MEMBER_LIST,
+    TYPE_SPEC,
+    BASE_TYPE_SPEC,
+    INTEGEER_TYPE,
+    DECLARATORS,
+    DECLARATOR,
+    EXP_LIST,
+    OR_EXPR,
+    XOR_EXPR,
+    AND_EXPR,
+    SHIFT_EXPR,
+    ADD_EXPR,
+    MULT_EXPR,
+    UNARY_EXPR
+};
+
+enum class EXP {
+    UNDEFINED = -1,
+    BASE_TYPE_SPEC,
+    FLOATING_PT_TYPE,
+    SIGNED_INT,
+    UNSIGNED_INT
+};
+
+enum class Statement {
+    UNDEFINED = -1,
+    IF_STATEMENT = 0,
+    WHILE_STATEMENT,
+    PRINT_STATEMENT,
+    VAR_ASSIGN_STATEMENT,
+    ARRAY_ASSIGN_STATEMENT,
+    SERIES_STATEMENT
+};
+
+
+enum class Expression {
+    UNDEFINED = -1,
+    INT_EXPRESSION = 0,
+    TRUE_EXPRESSION,
+    FALSE_EXPRESSION,
+    IDENTIFIER_EXPRESSION,
+    THIS_EXPRESSION,
+    NEW_ARRAY_EXPRESSION,
+    NEW_EXPRESSION,
+    NOT_EXPRESSION,
+    BRACE_EXPRESSION
+};
+
+enum class SubExpExp {
+    UNDEFINED = -1,
+    OP_SUB_EXP = 0,
+    EXP_SUB_EXP,
+    LENGTH_SUB_EXP,
+    METHOD_SUB_EXP,
+    NULL_SUB_EXP
+};
+
+#endif //MIDL_PARSER_SYNTAXTYPE_H

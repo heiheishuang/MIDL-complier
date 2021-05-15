@@ -1,0 +1,13 @@
+struct	float	boolean	short	long
+double	int8	int16	int32	int64
+uint8	uint16	uint32	uint64	char
+unit8	unit16	unit32	unit64	char
+unsigned
+aaa
+asd_
+asdfa_sdf_df
+asdf123_dg_45_d
+12_4
+_dfa
+a_df
+as_sf_3_dfadf34

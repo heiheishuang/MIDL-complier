@@ -1,0 +1,18 @@
+struct TEST{
+     float _a1;
+     double a2;
+     long        a00009_;
+     long long   a10;
+     unsigned long long  a17abs;
+     char a18;
+     BOOLEAN a_abs_19;
+}
+""
+"dfa
+"fga_da_"
+"\b\t\n\f\r\"\\"
+''
+{	}	;	[	]
+*	+	-	~	/
+%	>>	<<	&	^
+|	,

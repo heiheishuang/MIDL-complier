@@ -1,0 +1,5 @@
+struct test{
+    float a1
+    long double a2
+    double a3
+}

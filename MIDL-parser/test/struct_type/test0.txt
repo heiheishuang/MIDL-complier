@@ -1,0 +1,3 @@
+struct test{
+    float a1;
+}

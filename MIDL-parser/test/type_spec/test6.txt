@@ -1,0 +1,18 @@
+struct test{
+     float a1;
+     double a2;
+     long double a3;
+     struct warp_signInt{
+        unsigned short      s1,s2;
+        unsigned long       s3;
+        unsigned long long  s4;
+     } sign1;
+     struct warp_1{
+        float w1;
+        long  w2;
+        strcut warp_2{
+            boolean w3;
+            char    w4;
+        } w5;
+     } w6;
+}

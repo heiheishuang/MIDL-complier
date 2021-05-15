@@ -1,0 +1,23 @@
+STRUCT test{
+     FLOAt a1;
+     DOUBle a2;
+     LONG double a3;
+     INT8        a4;
+     INT16       a5;
+     INT32       a6;
+     INT64       a7;
+     SHORt       a8;
+     LONG        a9;
+     LONG long   a10;
+     UINT8               a11;
+     UINT16              a12;
+     UINT32              a13;
+     UINT64              a14;
+     UNSIgned short      a15;
+     UNSIgned long       a16;
+     UNSIgned long long  a17;
+     CHAR a18;
+     BOOLEAN a19;
+     LONG a20;
+     BOOLean a21;
+}

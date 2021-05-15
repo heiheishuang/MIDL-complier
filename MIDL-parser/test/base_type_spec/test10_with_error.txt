@@ -1,0 +1,8 @@
+struct test{
+     short unsigned      s6,s7;
+     unsigned long       s8;
+     unsigned long short s9;
+     char a_6;
+     long a8;
+     boolean a9;
+}

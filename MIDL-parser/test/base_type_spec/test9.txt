@@ -1,0 +1,11 @@
+struct test{
+     long long   i8;
+     uint32              s3,s4;
+     uint64              s5;
+     unsigned short      s6,s7;
+     unsigned long       s8;
+     unsigned long long  s9;
+     char a_6;
+     long a8;
+     boolean a9;
+}
